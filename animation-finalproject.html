@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Animation project</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .matcha {
+        height: 100vh;
+        width: 100%;
+        background: #f4aeba;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        position: relative;
+      }
+      nav {
+        width: 84%;
+        margin: auto;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .logo {
+        width: 100%;
+        cursor: pointer;
+      }
+      nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+        color: #c9356c;
+      }
+      nav ul li {
+        text-decoration: none;
+        color: #c9356c;
+      }
+      nav ul li a:hover {
+        color: white;
+      }
+      h1 {
+        color: #c9356c;
+      }
+
+      .info {
+        margin-left: 8%;
+        margin-top: 15%;
+      }
+      .info h2 {
+        font-size: 70px;
+        color: #ff347f;
+        margin-bottom: 20px;
+      }
+      span {
+        color: #c9356c;
+      }
+      .info p {
+        color: #c9356c;
+        line-height: 22px;
+      }
+      .img-box {
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+      }
+      .img-box img {
+        height: 100%;
+        margin: 45px;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+      }
+      .img-box:hover .back-img {
+        bottom: 40px;
+      }
+
+      .see-project {
+        display: block;
+        margin: 20px 30px 20px 30px;
+        text-decoration: none;
+        color: #c9356c;
+        font-size: 15px;
+        padding: 40px 50px;
+      }
+      .see-project:hover {
+        text-decoration: underline;
+        font-size: 12px;
+      }
+    </style>
+  </body>
+  <body>
+    <div class="matcha">
+      <nav>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/103/722/original/Naamloos_300.png?1699738419"
+          class="logocat"
+        />
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">PROJECTS</a></li>
+          <li><a href="">STORY</a></li>
+        </ul>
+      </nav>
+      <div class="info">
+        <h1>Welcome to my webpage</h1>
+        <br />
+        <h2>Hi ! i'm <span>Haini</span> Iq</h2>
+        <p>
+          I am a dental assistant that interested in trying new thing, learn how
+          to coding.<br />This is my second website project after following 3
+          weeks online program introduction to coding.<br />Finally basic coding
+          sertificate on my hand. My intention following this program only for
+          self-achievments<br />while seeing how big my potential is. Realize
+          coding isn't easy need a lot of practice, time, patience, trial and
+          error<br />during the process to improve. The rest will be done by
+          self-taught, Intiatif needed as well through finding online tutorial
+          and information.
+        </p>
+      </div>
+
+      <div class="img-box">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/103/686/original/Naamloos_%281%29.png?1699706481"
+          class="back-img"
+        />
+      </div>
+      <br />
+      <a
+        href="file:///H:/MIJN%20EERSTE%20CODE/re-codeFINALPROJECT.html"
+        target="_blank"
+        class="see-project"
+        >See my first project
+      </a>
+    </div>
+  </body>
+</html>
